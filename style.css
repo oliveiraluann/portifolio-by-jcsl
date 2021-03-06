@@ -603,3 +603,20 @@ footer {
 .social-list ul {
     display: flex;
 }
+
+#link-top {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background: #BA8B02;
+    background: -webkit-linear-gradient(to right, #191919, #97532a);
+    background: linear-gradient(to right, #191919, #97532a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: .3rem;
+    box-shadow: 0 .1rem .6rem #00000009;
+}
